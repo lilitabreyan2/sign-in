@@ -36,3 +36,37 @@ main {
     padding-top: 20px;
     position: relative;
 }
+.form-container > p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.labels {
+    font-size: 14px;
+    line-height: 20px;
+}
+#email, #password {
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(174, 171, 171);
+    border-radius: 10px;
+    padding-left: 16px;
+}
+#email {
+    margin-bottom: 10px;
+}
+.forgot-password {
+    font-size: 12px;
+    position: absolute;
+    right: 0
+}
+.password-message {
+    font-size: 9px;
+    color: red;
+}
+.remember-checkbox {
+    font-size: 12px;
+    margin: 10px 0;
+}
+#remember {
+    accent-color: rgb(58, 91, 34);
+}

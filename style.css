@@ -136,3 +136,58 @@ main {
 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    .form-container, .login-btn, .btns-container {
+        width: 320px;
+    }
+    #email, #password {
+        width: 300px;
+    }
+    .btns {
+        width: 150px;
+        font-size: 12px;
+        padding: 10px 5px 10px 30px;
+    }
+    .google-btn {
+        background-position: 10px 8px;
+    }
+    .apple-btn {
+        background-position: 7px 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background-picture {
+        display: none;
+    }
+    .container {
+        background-image: url("https://joico.b-cdn.net/assets/chris-lee-70l1tDAI6rM-unsplash.jpeg");
+        background-size: 100% 100%;
+    }
+    .content {
+        width: 100%; 
+        background-color: rgba(255, 255, 255, 0.7);   
+    }
+    .form-container, .login-btn, .btns-container {
+        width: 280px;
+    }
+    #email, #password {
+        width: 260px;
+    }
+    .form-container > p{
+        font-size: 12px;
+    }
+    .btns {
+        width: 135px;
+        font-size: 10px;
+        padding: 5px 5px 5px 30px;
+    }
+    .google-btn {
+        background-position: 10px 4px;
+    }
+    .apple-btn {
+        background-position: 7px 3px;
+    }
+   
+}

@@ -70,3 +70,69 @@ main {
 #remember {
     accent-color: rgb(58, 91, 34);
 }
+.login-btn {
+    width: 420px;
+    height: 40px;
+    background-color: rgb(58, 91, 34);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.login-btn:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    background-color: rgb(87, 127, 58);
+}
+.or { 
+    display: flex; 
+    flex-direction: row; 
+    font-size: 12px;
+    margin: 20px 0;
+} 
+.or:before, .or:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid rgb(174, 171, 171); 
+    margin: auto; 
+} 
+.btns-container {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns {
+    cursor: pointer;   
+    width: 200px; 
+    padding: 10px 10px 10px 50px;
+    border: 1px solid rgb(174, 171, 171);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.btns:hover {
+    border-color: black;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.google-btn {
+    background-image: url("https://freepngimg.com/download/google/66274-school-google-pearl-button-up-sign-middle.png");
+    background-size: 10%;
+    background-position: 24px 8px;
+}
+.apple-btn {
+    background-image: url("https://cdn.freebiesupply.com/images/thumbs/2x/apple-logo.png");
+    background-size: 15%;
+    background-position: 18px 5px;
+}
+.no-account {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
